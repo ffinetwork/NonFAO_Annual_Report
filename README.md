@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Prep Steps
 
 For the more detailed version, refer to the "Annual Report Data
