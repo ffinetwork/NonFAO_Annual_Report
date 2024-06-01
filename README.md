@@ -49,7 +49,7 @@ Follow the instructions in the "Non-FAO Data Compilation in R" SOP
     report) so file names can be customized to the current annual
     report's year
     
--   The renv.lock, .Rprofile, and renv folder contain information about the R packages and dependencies used in this project. They can help you sync your project's R packages on your 
+-   The `renv.lock`, `.Rprofile`, and `renv` folder contain information about the R packages and dependencies used in this project. They can help you sync your project's R packages on your 
     local computer.
 
 # Code Description
