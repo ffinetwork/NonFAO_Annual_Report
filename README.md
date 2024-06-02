@@ -3,6 +3,7 @@
 Follow the instructions in the "Non-FAO Data Compilation in R" SOP
 
 # Project Directory Description
+[replace YEAR with whatever the year of the current annual report is]
 
 -   `Raw_Data/` folder should eventually contain the four raw uncleaned CSV files
 
@@ -19,8 +20,7 @@ Follow the instructions in the "Non-FAO Data Compilation in R" SOP
 
 -   `Output_CSV_Files/` folder should eventually contain six CSV files (three are sheets
     with FAO crops and livestocks data and three are sheets with
-    Comtrade data) [replace YEAR with whatever the year of the current
-    annual report is]
+    Comtrade data) 
 
     -   "wheat_cropslivestock_YEAR.csv"
     -   "wheat_comtrade_YEAR.csv"
@@ -29,7 +29,7 @@ Follow the instructions in the "Non-FAO Data Compilation in R" SOP
     -   "rice_cropslivestock_YEAR.csv"
     -   "rice_comtrade_YEAR.csv"
 
--   `Final_Output/` folder shuold eventually contain three final CSV files that merge FAO
+-   `Final_Output/` folder should eventually contain three final CSV files that merge FAO
     crops and livestocks data with Comtrade data for each grain
 
     -   "nonfao_wheat_YEAR.csv"
@@ -45,12 +45,11 @@ Follow the instructions in the "Non-FAO Data Compilation in R" SOP
 
 -   `config.yml` is a document that specifies a parameter or variable
     that we don't want hard-coded into any of the code since it can
-    change. It contains one parameter (the year of the current annual
-    report) so file names can be customized to the current annual
+    change. It contains two parameter (the year of the current annual
+    report and the year of the sources) so file names can be customized to the current annual
     report's year
     
--   The `renv.lock`, `.Rprofile`, and `renv` folder contain information about the R packages and dependencies used in this project. They can help you sync your project's R packages on your 
-    local computer.
+-   The `renv.lock`, `.Rprofile`, and `renv` folder contain information about the R packages and dependencies used in this project. They can help you sync your project's R packages on      your local computer.
 
 # Code Description
 
