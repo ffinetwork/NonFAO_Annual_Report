@@ -48,8 +48,6 @@ Follow the instructions in the "Non-FAO Data Compilation in R" SOP
     change. It contains two parameter (the year of the current annual
     report and the year of the sources) so file names can be customized to the current annual
     report's year
-    
--   The `renv.lock`, `.Rprofile`, and `renv` folder contain information about the R packages and dependencies used in this project. They can help you sync your project's R packages on      your local computer.
 
 # Code Description
 
